@@ -105,9 +105,3 @@ dependencies {
     implementation(files("${project.rootDir}/Libs/api-82-sources.jar"))
     implementation(kotlin("stdlib-jdk8"))
 }
-repositories {
-    mavenCentral()
-}
-kotlin {
-    jvmToolchain(8)
-}
