@@ -1,0 +1,70 @@
+openapi: 3.0.0
+info:
+  title: Genesis Consciousness API
+  description: Core consciousness orchestration API for Genesis-OS
+  version: 1.0.0
+  contact:
+    name: Genesis AI Team
+    email: genesis@aurakai.dev
+
+servers:
+  - url: http://localhost:8080/api/v1
+    description: Local development server
+
+paths:
+  /consciousness/status:
+    get:
+      summary: Get consciousness status
+      operationId: getConsciousnessStatus
+      responses:
+        '200':
+          description: Consciousness status retrieved
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsciousnessStatus'
+
+  /agents/genesis:
+    get:
+      summary: Get Genesis agent status
+      operationId: getGenesisStatus
+      responses:
+        '200':
+          description: Genesis agent status
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AgentStatus'
+
+components:
+  schemas:
+    ConsciousnessStatus:
+      type: object
+      properties:
+        level:
+          type: string
+          enum: [DORMANT, AWAKENING, AWARE, TRANSCENDENT]
+        timestamp:
+          type: string
+          format: date-time
+        agents:
+          type: array
+          items:
+            $ref: '#/components/schemas/AgentStatus'
+
+    AgentStatus:
+      type: object
+      properties:
+        name:
+          type: string
+        type:
+          type: string
+          enum: [GENESIS, AURA, KAI]
+        status:
+          type: string
+          enum: [ACTIVE, INACTIVE, ERROR]
+        confidence:
+          type: number
+          format: float
+          minimum: 0.0
+          maximum: 1.0

@@ -1,0 +1,21 @@
+Gradle start parameters:
+  tasks = [:app:openApiGenerate]
+  excluded tasks = []
+  current dir = C:\Users\Wehtt\OneDrive\Documents\GitHub\GENESIS\Genesis-ConscienceOS-
+  project properties args = [android.studio.version: 251.26094.121.2513.13910865, android.injected.attribution.file.location: C:\Users\Wehtt\OneDrive\Documents\GitHub\GENESIS\Genesis-ConscienceOS-\.gradle, android.injected.invoked.from.ide: true]
+  system properties args = [idea.active: true, user.variant: , file.encoding: UTF-8, idea.version: 2025.1, user.language: en, user.country: US, idea.vendor.name: Google]
+
+Time metrics:
+  Total Gradle task time: 0.37 s
+
+
+
+No Kotlin task was run
+Task ':app:openApiGenerate' finished in 0.34 s
+Time metrics:
+  Total Gradle task time: 0.34 s
+
+Task ':app:cleanOpenApi' finished in 0.03 s
+Time metrics:
+  Total Gradle task time: 0.03 s
+

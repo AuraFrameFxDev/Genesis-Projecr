@@ -1,0 +1,91 @@
+Gradle start parameters:
+  tasks = [preBuild]
+  excluded tasks = []
+  current dir = C:\Users\Wehtt\StudioProjects\Genesis-ConscienceOS-
+  project properties args = [android.studio.version: 251.26094.121.2513.13930206, android.injected.attribution.file.location: C:\Users\Wehtt\StudioProjects\Genesis-ConscienceOS-\.gradle, android.injected.invoked.from.ide: true]
+  system properties args = [idea.active: true, user.variant: , file.encoding: UTF-8, idea.version: 2025.1, user.language: en, user.country: US, idea.vendor.name: Google]
+
+Build failed: [Execution failed for task ':romtools:verifyRomTools'., Execution failed for task ':app:cleanAllConsciousnessApis'., Execution failed for task ':app:openApiGenerate'.]
+
+Time metrics:
+  Total Gradle task time: 2.85 s
+
+
+
+No Kotlin task was run
+Task ':app:cleanAllConsciousnessApis' finished in 0.95 s
+Time metrics:
+  Total Gradle task time: 0.95 s
+
+Task ':app:generateAiApi' finished in 0.43 s
+Time metrics:
+  Total Gradle task time: 0.43 s
+
+Task ':app:generateRomToolsApi' finished in 0.30 s
+Time metrics:
+  Total Gradle task time: 0.30 s
+
+Task ':app:generateOracleApi' finished in 0.25 s
+Time metrics:
+  Total Gradle task time: 0.25 s
+
+Task ':app:generateSystemApi' finished in 0.23 s
+Time metrics:
+  Total Gradle task time: 0.23 s
+
+Task ':app:generateAuraBackendApi' finished in 0.19 s
+Time metrics:
+  Total Gradle task time: 0.19 s
+
+Task ':app:generateSandboxApi' finished in 0.18 s
+Time metrics:
+  Total Gradle task time: 0.18 s
+
+Task ':app:generateAuraFrameFXApi' finished in 0.14 s
+Time metrics:
+  Total Gradle task time: 0.14 s
+
+Task ':app:generateCustomizationApi' finished in 0.14 s
+Time metrics:
+  Total Gradle task time: 0.14 s
+
+Task ':app:openApiGenerate' finished in 0.05 s
+Time metrics:
+  Total Gradle task time: 0.05 s
+
+Task ':module-b:preBuild' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':secure-comm:preBuild' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':romtools:verifyRomTools' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':module-e:preBuild' finished in 0.00 s
+
+Task ':colorblendr:preBuild' finished in 0.00 s
+
+Task ':feature-module:preBuild' finished in 0.00 s
+
+Task ':datavein-oracle-native:preBuild' finished in 0.00 s
+
+Task ':module-c:preBuild' finished in 0.00 s
+
+Task ':core-module:preBuild' finished in 0.00 s
+
+Task ':collab-canvas:preBuild' finished in 0.00 s
+
+Task ':module-d:preBuild' finished in 0.00 s
+
+Task ':module-f:preBuild' finished in 0.00 s
+
+Task ':module-a:preBuild' finished in 0.00 s
+
+Task ':oracle-drive-integration:preBuild' finished in 0.00 s
+
+Task ':sandbox-ui:preBuild' finished in 0.00 s
+

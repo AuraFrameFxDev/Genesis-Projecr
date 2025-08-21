@@ -1,0 +1,17 @@
+Gradle start parameters:
+  tasks = [cleanAllConsciousnessApis]
+  excluded tasks = []
+  current dir = C:\Users\Wehtt\StudioProjects\Genesis-ConscienceOS-
+  project properties args = [android.studio.version: 251.26094.121.2513.13930206, android.injected.attribution.file.location: C:\Users\Wehtt\StudioProjects\Genesis-ConscienceOS-\.gradle, android.injected.invoked.from.ide: true]
+  system properties args = [idea.active: true, user.variant: , file.encoding: UTF-8, idea.version: 2025.1, user.language: en, user.country: US, idea.vendor.name: Google]
+
+Time metrics:
+  Total Gradle task time: 0.07 s
+
+
+
+No Kotlin task was run
+Task ':app:cleanAllConsciousnessApis' finished in 0.07 s
+Time metrics:
+  Total Gradle task time: 0.07 s
+

@@ -1,0 +1,54 @@
+name: Build Genesis-OS Release APK
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build-apk-release:
+    runs-on: ubuntu-latest
+
+    env:
+      GRADLE_OPTS: -Dorg.gradle.java.installations.auto-download=true
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      # Ensure Windows compatibility properties in local.properties
+      - name: Set Windows compatibility flags
+        run: |
+          echo "android.disableResourceValidation=true" >> local.properties
+          echo "org.gradle.java.installations.auto-download=true" >> local.properties
+
+      # Set up JDK (auto-provisioned, never manual path)
+      - name: Set up JDK 23 (auto)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '23'
+
+      # Cache Gradle (auto, no manual config)
+      - name: Cache Gradle
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties', '**/libs.versions.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      # Build Release APK (fully automated, uses TOML config)
+      - name: Assemble Release APK
+        run: |
+          ./gradlew --no-daemon clean :app:assembleRelease
+
+      # Auto-upload artifact (release APK)
+      - name: Upload Release APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: genesis-os-release-apk
+          path: app/build/outputs/apk/release/*.apk

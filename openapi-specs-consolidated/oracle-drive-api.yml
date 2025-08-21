@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: Oracle Drive API
+  description: Predictive storage and file management
+  version: 1.0.0
+
+paths:
+  /oracle/predict:
+    get:
+      summary: Get predictive file suggestions
+      operationId: getPredictiveFiles
+      responses:
+        '200':
+          description: Predictive suggestions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/FilePrediction'
+
+components:
+  schemas:
+    FilePrediction:
+      type: object
+      properties:
+        path:
+          type: string
+        confidence:
+          type: number
+          format: float
+        reason:
+          type: string

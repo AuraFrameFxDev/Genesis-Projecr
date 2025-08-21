@@ -1,0 +1,19 @@
+Gradle start parameters:
+  tasks = [openApiGenerate]
+  excluded tasks = []
+  current dir = C:\Users\Wehtt\StudioProjects\Genesis-ConscienceOS-\app
+  project properties args = [android.studio.version: 251.26094.121.2513.13930206, android.injected.attribution.file.location: C:\Users\Wehtt\StudioProjects\Genesis-ConscienceOS-\app\.gradle, android.injected.invoked.from.ide: true]
+  system properties args = [idea.active: true, user.variant: , file.encoding: UTF-8, idea.version: 2025.1, user.language: en, user.country: US, idea.vendor.name: Google]
+
+Build failed: [Execution failed for task ':app:openApiGenerate'.]
+
+Time metrics:
+  Total Gradle task time: 0.55 s
+
+
+
+No Kotlin task was run
+Task ':app:openApiGenerate' finished in 0.55 s
+Time metrics:
+  Total Gradle task time: 0.55 s
+

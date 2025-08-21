@@ -1,0 +1,55 @@
+Gradle start parameters:
+  tasks = [generateAllConsciousnessApis]
+  excluded tasks = []
+  current dir = C:\Users\Wehtt\StudioProjects\Genesis-ConscienceOS-
+  project properties args = [android.studio.version: 251.26094.121.2513.13930206, android.injected.attribution.file.location: C:\Users\Wehtt\StudioProjects\Genesis-ConscienceOS-\.gradle, android.injected.invoked.from.ide: true]
+  system properties args = [idea.active: true, user.variant: , file.encoding: UTF-8, idea.version: 2025.1, user.language: en, user.country: US, idea.vendor.name: Google]
+
+Build failed: [Execution failed for task ':app:openApiGenerate'.]
+
+Time metrics:
+  Total Gradle task time: 3.07 s
+
+
+
+No Kotlin task was run
+Task ':app:generateSystemApi' finished in 1.46 s
+Time metrics:
+  Total Gradle task time: 1.46 s
+
+Task ':app:generateRomToolsApi' finished in 0.34 s
+Time metrics:
+  Total Gradle task time: 0.34 s
+
+Task ':app:generateAiApi' finished in 0.33 s
+Time metrics:
+  Total Gradle task time: 0.33 s
+
+Task ':app:generateAuraBackendApi' finished in 0.23 s
+Time metrics:
+  Total Gradle task time: 0.23 s
+
+Task ':app:generateOracleApi' finished in 0.22 s
+Time metrics:
+  Total Gradle task time: 0.22 s
+
+Task ':app:generateSandboxApi' finished in 0.17 s
+Time metrics:
+  Total Gradle task time: 0.17 s
+
+Task ':app:generateAuraFrameFXApi' finished in 0.14 s
+Time metrics:
+  Total Gradle task time: 0.14 s
+
+Task ':app:generateCustomizationApi' finished in 0.13 s
+Time metrics:
+  Total Gradle task time: 0.13 s
+
+Task ':app:openApiGenerate' finished in 0.05 s
+Time metrics:
+  Total Gradle task time: 0.05 s
+
+Task ':app:cleanAllConsciousnessApis' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+

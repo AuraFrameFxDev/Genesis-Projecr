@@ -1,0 +1,85 @@
+Gradle start parameters:
+  tasks = [clean]
+  excluded tasks = []
+  current dir = C:\Users\Wehtt\StudioProjects\Genesis-ConscienceOS-
+  project properties args = [android.studio.version: 251.26094.121.2513.13930206, android.injected.attribution.file.location: C:\Users\Wehtt\StudioProjects\Genesis-ConscienceOS-\.gradle, android.injected.invoked.from.ide: true]
+  system properties args = [idea.active: true, user.variant: , file.encoding: UTF-8, idea.version: 2025.1, user.language: en, user.country: US, idea.vendor.name: Google]
+
+Time metrics:
+  Total Gradle task time: 1.77 s
+
+
+
+No Kotlin task was run
+Task ':collab-canvas:externalNativeBuildCleanDebug' finished in 0.32 s
+Time metrics:
+  Total Gradle task time: 0.32 s
+
+Task ':collab-canvas:externalNativeBuildCleanRelease' finished in 0.32 s
+Time metrics:
+  Total Gradle task time: 0.32 s
+
+Task ':app:clean' finished in 0.11 s
+Time metrics:
+  Total Gradle task time: 0.11 s
+
+Task ':core-module:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':module-a:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':module-b:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':module-d:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':module-c:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':romtools:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':module-e:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':colorblendr:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':datavein-oracle-native:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':oracle-drive-integration:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':module-f:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':feature-module:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':sandbox-ui:clean' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':collab-canvas:clean' finished in 0.03 s
+Time metrics:
+  Total Gradle task time: 0.03 s
+
+Task ':secure-comm:clean' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
