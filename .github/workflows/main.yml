@@ -22,8 +22,8 @@ jobs:
           echo "android.disableResourceValidation=true" >> local.properties
           echo "org.gradle.java.installations.auto-download=true" >> local.properties
 
-      - name: Set up Android SDK
-        uses: actions/setup-android@v3
+      - name: Set up Android SDk
+        uses: actions/setup-android@v4
         with:
           cache: true
 
