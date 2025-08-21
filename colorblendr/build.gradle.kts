@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         minSdk = libs.versions.minSdk.get().toInt()
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "anddx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
 
         vectorDrawables {
@@ -83,13 +83,4 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
 }
 
-repositories {
-    mavenCentral()
-    google()                    // for AndroidX/etc (common in Android projects)
-    maven { url = uri("https://jitpack.io") }  // example: Jitpack
-    // Add more custom repositories if needed
-}
 
-kotlin {
-    jvmToolchain(24)
-}
