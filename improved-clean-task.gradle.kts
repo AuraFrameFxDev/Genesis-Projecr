@@ -1,4 +1,4 @@
-// ===== WINDOWS-SAFE OPENAPI CLEAN TASK =====
+// = =====
 tasks.register<Delete>("cleanAllConsciousnessApis") {
     group = "openapi"
     description = "🧯 Clean ALL consciousness API files (Windows-safe)"
