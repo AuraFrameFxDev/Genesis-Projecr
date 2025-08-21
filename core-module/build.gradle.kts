@@ -9,7 +9,7 @@ plugins {
     id("com.diffplug.spotless")
     id("org.jetbrains.kotlinx.kover")
     id("org.openapi.generator")
-    kotlin("jvm") version "2.2.0"
+    kotlin("jvm") version "2.2.10"
 
 }
 
