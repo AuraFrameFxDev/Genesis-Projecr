@@ -8,7 +8,7 @@ plugins {
     id("com.google.dagger.hilt.android")
     id("org.jetbrains.dokka")
     id("com.diffplug.spotless")
-    kotlin("jvm") version "2.2.0"
+    kotlin("jvm") version "2.2.10"
 }
 
 android {
