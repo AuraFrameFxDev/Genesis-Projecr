@@ -335,5 +335,6 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     androidTestImplementation(libs.hilt.android.testing)
     kspAndroidTest(libs.hilt.compiler)
-    kaptAndroidTest(libs.hilt.compiler) // ✅ KAPT for testing
+    kaptAndroidTest(libs.hilt.compiler) //PATHCORRECTION
+    implementation(kotlin("stdlib-jdk8"))
 }

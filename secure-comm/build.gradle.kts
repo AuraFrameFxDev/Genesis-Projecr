@@ -9,6 +9,7 @@ plugins {
     id("com.diffplug.spotless")
     id("org.jetbrains.kotlinx.kover")
     id("org.openapi.generator")
+    kotlin("jvm") version "2.2.0"
 }
 
 
@@ -88,4 +89,11 @@ dependencies {
     // System interaction and root access
     implementation(files("${project.rootDir}/Libs/api-82.jar"))
     implementation(files("${project.rootDir}/Libs/api-82-sources.jar"))
+    implementation(kotlin("stdlib-jdk8"))
+}
+repositories {
+    mavenCentral()
+}
+kotlin {
+    jvmToolchain(11)
 }

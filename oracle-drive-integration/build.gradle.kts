@@ -7,6 +7,7 @@ plugins {
     id("com.google.dagger.hilt.android")
     id("org.jetbrains.dokka")
     id("com.diffplug.spotless")
+    kotlin("jvm") version "2.2.0"
 }
 
 android {
@@ -88,4 +89,11 @@ dependencies {
 
     // Utilities
     implementation(libs.bundles.utilities)
+    implementation(kotlin("stdlib-jdk8"))
+}
+repositories {
+    mavenCentral()
+}
+kotlin {
+    jvmToolchain(11)
 }

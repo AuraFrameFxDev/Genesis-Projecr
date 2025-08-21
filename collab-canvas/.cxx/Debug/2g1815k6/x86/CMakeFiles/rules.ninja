@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\Wehtt\Studio\cmake\3.22.1\bin\cmake.exe --regenerate-during-build -SC:\Users\Wehtt\OneDrive\Documents\GitHub\Project-AuraFrameFx\collab-canvas\src\main\cpp -BC:\Users\Wehtt\OneDrive\Documents\GitHub\Project-AuraFrameFx\collab-canvas\.cxx\Debug\2g1815k6\x86
+  command = C:\Users\Wehtt\Studio\cmake\3.22.1\bin\cmake.exe --regenerate-during-build -SC:\Users\Wehtt\OneDrive\Documents\Geneis-os\collab-canvas\src\main\cpp -BC:\Users\Wehtt\OneDrive\Documents\Geneis-os\collab-canvas\.cxx\Debug\2g1815k6\x86
   description = Re-running CMake...
   generator = 1
 

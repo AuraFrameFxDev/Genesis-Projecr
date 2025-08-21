@@ -7,6 +7,7 @@ plugins {
     id("com.google.dagger.hilt.android")
     id("org.jetbrains.dokka")
     id("com.diffplug.spotless")
+    kotlin("jvm") version "2.2.0"
 }
 
 android {
@@ -92,6 +93,7 @@ dependencies {
     // System interaction and root access
     implementation(files("${project.rootDir}/Libs/api-82.jar"))
     implementation(files("${project.rootDir}/Libs/api-82-sources.jar"))
+    implementation(kotlin("stdlib-jdk8"))
 }
 
 // Configure native ROM tools build
@@ -126,4 +128,10 @@ tasks.named("preBuild") {
     doLast {
         println("✅ ROM tools verified and ready")
     }
+}
+repositories {
+    mavenCentral()
+}
+kotlin {
+    jvmToolchain(11)
 }

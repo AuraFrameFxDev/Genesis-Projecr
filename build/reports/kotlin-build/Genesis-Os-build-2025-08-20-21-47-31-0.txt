@@ -1,0 +1,17 @@
+Gradle start parameters:
+  tasks = [updateDaemonJvm, --jvm-version, 24]
+  excluded tasks = []
+  current dir = C:\Users\Wehtt\OneDrive\Documents\Geneis-os
+  project properties args = []
+  system properties args = [idea.active: true, user.variant: , file.encoding: UTF-8, idea.version: 2025.2.1, user.language: en, user.country: US, idea.vendor.name: JetBrains]
+
+Time metrics:
+  Total Gradle task time: 5.72 s
+
+
+
+No Kotlin task was run
+Task ':updateDaemonJvm' finished in 5.72 s
+Time metrics:
+  Total Gradle task time: 5.72 s
+

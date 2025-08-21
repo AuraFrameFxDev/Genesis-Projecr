@@ -9,6 +9,7 @@ plugins {
     id("com.diffplug.spotless")
 }
 
+
 android {
     namespace = "dev.aurakai.auraframefx.collabcanvas"
     compileSdk = libs.versions.compileSdk.get().toInt()
@@ -88,6 +89,12 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
     // Xposed Framework
-    implementation(files("${project.rootDir}/Libs/api-82.jar"))
-    implementation(files("${project.rootDir}/Libs/api-82-sources.jar"))
+    // implementation(files("${project.rootDir}/Libs/api-82.jar"))
+    // implementation(files("${project.rootDir}/Libs/api-82-sources.jar"))
+    // TODO: Replace with the correct Maven coordinates for api82
+    // implementation("group:artifact:version")
+    implementation(kotlin("stdlib-jdk8"))
+}
+kotlin {
+    jvmToolchain(8)
 }
